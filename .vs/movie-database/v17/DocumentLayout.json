@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\MattieD\\source\\repos\\movie-database\\movie-database\\Movie.cs",
-              "RelativeDocumentMoniker": "movie-database\\Movie.cs",
-              "ToolTip": "C:\\Users\\MattieD\\source\\repos\\movie-database\\movie-database\\Movie.cs",
-              "RelativeToolTip": "movie-database\\Movie.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T00:50:03.07Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,10 +28,29 @@
               "RelativeDocumentMoniker": "movie-database\\Program.cs",
               "ToolTip": "C:\\Users\\MattieD\\source\\repos\\movie-database\\movie-database\\Program.cs",
               "RelativeToolTip": "movie-database\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAANAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC8AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T00:44:12.545Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\MattieD\\source\\repos\\movie-database\\movie-database\\Movie.cs",
+              "RelativeDocumentMoniker": "movie-database\\Movie.cs",
+              "ToolTip": "C:\\Users\\MattieD\\source\\repos\\movie-database\\movie-database\\Movie.cs",
+              "RelativeToolTip": "movie-database\\Movie.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T00:50:03.07Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",

@@ -3,9 +3,16 @@
  * 2.15.24 */
 
 using movie_database;
+using System.Reflection;
+
+string title = "default";
+string category = "default";
+string continueInput = "default";
+
+Movie movie = new Movie(title, category);
 
 //List<Movie> storing 10 movies with a mixture of categories
-List<Movie> movie = new List<Movie>()
+List<Movie> movieList = new List<Movie>()
 {
     new Movie("Star Wars", "scifi"),
     new Movie("The Godfather", "drama"),
@@ -20,7 +27,7 @@ List<Movie> movie = new List<Movie>()
 };
 
 //Starting application
-Console.WriteLine("Welcome to the Movie List Application!");
+Console.WriteLine("Welcome to the Movie List Database!");
 Console.WriteLine("There are 15 movies in this list");
 // Display the available categories
 Console.WriteLine("Categories: animated, drama, horror, scifi");
@@ -28,28 +35,17 @@ Console.WriteLine("Categories: animated, drama, horror, scifi");
 while (true)
 {
     Console.WriteLine("What category are you intered in?");
-    string category = Console.ReadLine().ToLower();
+    category = Console.ReadLine().ToLower();
     // Check if the category is valid
 
-    movie.MovieList.Add(movie);
-
-    if (category == "animated" || category == "drama" || category == "horror" || category == "scifi")
+    if (category.ToLower().Trim() == "animated" || category == "drama" || category == "horror" || category == "scifi")
     {
         Console.WriteLine($"Movies in the {category} category:");
 
         // Display movies that match the category
-        foreach (var Movie in Movies)
+        foreach (var Movie in movie.MovieList)
         {
-
-            if (movie.Category != category)
-            {
-                Console.WriteLine("Invalid category! Please enter a valid category.");
-                continue; // Restart the loop to ask for the category again
-            }
-            else
-            {
-                Console.WriteLine(movie.Title);
-            }
+            Console.WriteLine(movie.MovieList);
         }
     }
     else
@@ -60,7 +56,7 @@ while (true)
 
     // Ask if the user wants to continue
     Console.Write("\nContinue? (y/n): ");
-    string continueInput = Console.ReadLine().ToLower();
+    continueInput = Console.ReadLine().ToLower();
     if (continueInput != "y")
     {
         break; // Exit the loop and end the program

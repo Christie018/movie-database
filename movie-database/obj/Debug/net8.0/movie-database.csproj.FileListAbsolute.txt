@@ -1,0 +1,15 @@
+C:\Users\MattieD\source\repos\movie-database\movie-database\bin\Debug\net8.0\movie-database.exe
+C:\Users\MattieD\source\repos\movie-database\movie-database\bin\Debug\net8.0\movie-database.deps.json
+C:\Users\MattieD\source\repos\movie-database\movie-database\bin\Debug\net8.0\movie-database.runtimeconfig.json
+C:\Users\MattieD\source\repos\movie-database\movie-database\bin\Debug\net8.0\movie-database.dll
+C:\Users\MattieD\source\repos\movie-database\movie-database\bin\Debug\net8.0\movie-database.pdb
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\movie-database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\movie-database.AssemblyInfoInputs.cache
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\movie-database.AssemblyInfo.cs
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\movie-database.csproj.CoreCompileInputs.cache
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\movie-database.sourcelink.json
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\movie-database.dll
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\refint\movie-database.dll
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\movie-database.pdb
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\movie-database.genruntimeconfig.cache
+C:\Users\MattieD\source\repos\movie-database\movie-database\obj\Debug\net8.0\ref\movie-database.dll
