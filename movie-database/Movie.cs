@@ -14,10 +14,18 @@ namespace movie_database
     internal class Movie
     {
         public List<Movie> MovieList { get; set; } = new List<Movie>();
+        public string Title { get; set; }
+        public string Category{ get; set; }
 
         public Movie(string title, string category)
         {
             MovieList = new List<Movie>();
         }
+
+        public string DisplayMovieList()
+        {
+            return Category;
+        }
+
     }
 }
