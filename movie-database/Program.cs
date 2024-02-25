@@ -32,14 +32,16 @@ Console.WriteLine("Categories: animated, drama, horror, scifi");
 while (true)
 {
     Console.WriteLine("What category are you intered in?");
-    string category = Console.ReadLine().ToLower();
+    string category = Console.ReadLine().ToLower().Trim();
     
     // Check if the category is valid
     if (category.ToLower().Trim() == "animated" || category == "drama" || category == "horror" || category == "scifi")
     {
         Console.WriteLine($"Movies in the {category} category:");
 
-        foreach (var Movie in movieList)
+        var categoryList = movieList.Where(movie => movie.Category == category);
+
+        foreach (var Movie in categoryList)
         {
             Console.WriteLine(Movie.Title);
         }
@@ -51,7 +53,7 @@ while (true)
     }
 
     // Ask if the user wants to continue
-    Console.Write("\nContinue? (y/n): ");
+    Console.WriteLine("Continue? (y/n): ");
     continueInput = Console.ReadLine().ToLower();
   
     if (continueInput != "y")
