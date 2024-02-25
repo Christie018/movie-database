@@ -5,11 +5,8 @@
 using movie_database;
 using System.Reflection;
 
-string title = "default";
-string category = "default";
 string continueInput = "default";
 
-Movie movie = new Movie(title, category);
 
 //List<Movie> storing 10 movies with a mixture of categories
 List<Movie> movieList = new List<Movie>()
@@ -35,17 +32,16 @@ Console.WriteLine("Categories: animated, drama, horror, scifi");
 while (true)
 {
     Console.WriteLine("What category are you intered in?");
-    category = Console.ReadLine().ToLower();
+    string category = Console.ReadLine().ToLower();
+    
     // Check if the category is valid
-
     if (category.ToLower().Trim() == "animated" || category == "drama" || category == "horror" || category == "scifi")
     {
         Console.WriteLine($"Movies in the {category} category:");
 
-        // Display movies that match the category
-        foreach (var Movie in movie.MovieList)
+        foreach (var Movie in movieList)
         {
-            Console.WriteLine(movie.MovieList);
+            Console.WriteLine(Movie.Title);
         }
     }
     else
@@ -57,6 +53,7 @@ while (true)
     // Ask if the user wants to continue
     Console.Write("\nContinue? (y/n): ");
     continueInput = Console.ReadLine().ToLower();
+  
     if (continueInput != "y")
     {
         break; // Exit the loop and end the program
